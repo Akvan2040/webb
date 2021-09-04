@@ -1,0 +1,142 @@
+﻿*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#title
+
+{
+	text-align:center;
+	margin-bottom:35%;
+	position:absolute;
+	top:80;
+	left:36.50%;
+}
+body
+{
+	background:url('bg2.jpg');
+	background-size:cover;
+	background-position:center center;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+.box{
+	width:55%;
+	padding:40px;
+	background:rgba(0,0,0,.7);
+	border-radius:10px;
+	box-shadow:0 15px 25px rgba(0,0,0,.5);
+	
+	
+}
+
+.box h1
+{
+	color:white;
+	text-align:center;
+	margin-bottom:30px;
+	text-shadow:2px 2px 5px gray,-2px -2px 5px gray;
+	text-transform:capitalize;
+}
+
+.box .inputBox input
+
+{
+	width:100%;
+	background:transparent;
+	border:none;
+	outline:none;
+	padding:10px;
+	border-bottom:1px solid white;
+	color:white;
+	
+	
+}
+
+.inputBox {
+	position:relative;
+	margin-bottom:30px;
+	font-size:20px;
+	
+}
+
+.box .inputBox label {
+	
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+	pointer-events:none;
+	transition:.5s;
+}
+
+
+.box .inputBox input:focus ~label,.box .inputBox input:valid ~label
+
+{
+	top:-18;
+	color:#03a9f4;
+	font-size:16px;
+}
+.box .inputBox input:focus
+{
+	border-bottom-color:#03a9f4;
+}
+.box button{
+	border:none;
+	outline:none;
+	color:white;
+	background:blue;
+	font-size:20px;
+	padding:10px 20px;
+	border-radius:10px;
+	width:80%;
+	/*max-width:100%;	*/
+	margin:0px 11% ;
+}
+/*.box input[type ='button']:hover
+
+{
+	background:#0150ff;
+}
+*/
+
+button a
+{
+		text-decoration:none;
+		color:white;
+		display:block;
+		padding:10px;
+		border-radius:10px;
+		font-family:serif;
+		font-size:20pt;
+		font-weight:bolder;
+		
+}
+.box button
+
+{
+	padding:0px;
+}
+.box button:hover
+
+{
+	transition:.7s;
+	background:#0150ff;
+}
+
+.box button a:hover
+
+{
+	transition:.7s;
+	background:#0150ff;
+	color:#71f099;
+}
+
+
+
+

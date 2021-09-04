@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="slider.css" type="text/css">
+		
+		<!--
+		<script src="jquary.min.js" > </script>
+		<script> 
+		$(document).ready(function(){
+		  $("#r1").click(function(){
+			$("#pic1").show(1000);
+			$("#pic2").hide(1000);
+			$("#pic3").hide(1000);
+			$("#pic4").hide(1000);
+			$("#pic5").hide(1000);
+			$("#pic6").hide(1000);
+		  });
+		  
+		  $("#r2").click(function(){
+			$("#pic2").show(1000);
+			$("#pic1").hide(1000);
+			$("#pic3").hide(1000);
+			$("#pic4").hide(1000);
+			$("#pic5").hide(1000);
+			$("#pic6").hide(1000);
+		  });
+		  
+		  $("#r3").click(function(){
+			$("#pic3").show(1000);
+			$("#pic1").hide(1000);
+			$("#pic2").hide(1000);
+			$("#pic4").hide(1000);
+			$("#pic5").hide(1000);
+			$("#pic6").hide(1000);
+		  });
+		  
+		  $("#r4").click(function(){
+			$("#pic4").show(1000);
+			$("#pic1").hide(1000);
+			$("#pic2").hide(1000);
+			$("#pic3").hide(1000);
+			$("#pic5").hide(1000);
+			$("#pic6").hide(1000);
+		  });
+		  $("#r5").click(function(){
+			$("#pic5").show(1000);
+			$("#pic1").hide(1000);
+			$("#pic2").hide(1000);
+			$("#pic3").hide(1000);
+			$("#pic4").hide(1000);
+			$("#pic6").hide(1000);
+		  });
+		  
+		  $("#r6").click(function(){
+			$("#pic6").show(1000);
+			$("#pic1").hide(1000);
+			$("#pic2").hide(1000);
+			$("#pic3").hide(1000);
+			$("#pic4").hide(1000);
+			$("#pic5").hide(1000);
+		  });
+		 
+		});
+		</script>
+		-->
+		
+		<title>خبر ورزشی</title>
+			<style>
+					#header ul li
+					{
+						float:right;
+						padding:2px;
+						margin-top:10px;
+					}
+			</style>
+	</head>
+<!--	<a href="#"><img src="LogoSP.png" width="70px;"height="30px;"></a>-->
+	<body>
+	
+		<div id="all" >
+		
+			<div id="header">
+				<ul style="list-style-type:none;padding-right:10px;">
+					<li><a href="login/login.html">ورود<a/></li>
+					<li>/</li>
+					<li> <a href="login/login.html">ثبت نام<a/></li>
+				</ul>
+				<!--<img src="img/ban3.jpg" width="100%" height="200px;">
+				<a style="position:absolute;top:50;left:83%;float:right;margin-left:2%;width:100px;padding:5px;display:inline">
+				ورود</a>
+				<a style="position:absolute;top:50;left:80.50%;color:red;float:right;width:100px;padding:5px;">
+				/ثبت نام</a>-->
+			</div>
+				
+			<div id="top-menu">
+				<ul id="menu">
+					<li> <a href="#">صفحه اصلی</a></li>
+					<li> <a href="Esteghlal.html">استقلال</a></li>
+					<li> <a href="Perspolis.html">پرسپولیس</a></li>
+					<li> <a href="#">منهای فوتبال </a></li>
+					<li> <a href="#">عکس </a></li>
+					<li> <a href="#">ویدئو </a></li>
+					<li> <a href="#" id="ALast">جدول و نتایج </a></li>
+				</ul>
+			</div>
+				
+				<div id="wrapper">
+				
+					<div id="Rmenu">  <!---Rmenu OK --->
+					
+					
+						<div class="Title-Rmenu"><p class="txt-Title-Rmenu">لیست ورزش ها</p></div>
+						<div class="content-Rmenu">
+							<ul class="ul-Rmenu">
+								<li> <a href="#">فوتبال</a></li>
+								<li> <a href="#">والیبال</a></li>
+								<li> <a href="#">بسکتبال</a></li>
+								<li> <a href="#">کاراته </a></li>
+								<li> <a href="#">شنا</a></li>
+							</ul>
+						</div>
+						
+						<div class="Title-Rmenu"><p class="txt-Title-Rmenu"> پیوند ها</p></div>
+						<div class="content-Rmenu">
+							<ul class="ul-Rmenu">
+								<li> <a href="https://www.varzesh3.com/">ورزش 3</a></li>
+								<li> <a href="http://ffiri.ir/">تیم ملی</a></li>
+								<li> <a href="https://tv3.ir/program/42911">توپ و تور</a></li>
+								<li> <a href="https://varzeshtv.ir/">شبکه ورزش </a></li>
+								<li> <a href="http://www.olympic.ir/">المپیک</a></li>
+							</ul>
+						</div>
+						<div class="Title-all-info"><p class="txt-Title-info">پارالمپیک توکیو 2020</p></div>
+						<div class="content-Rmenu-table">
+							<table class="table " id ="tableR">
+								<tr id="tr-Rtable">
+									<th></th>
+									<th></th>
+									<th><img class="img-tabel" src="imgg/medal-gold.png"></th>
+									<th><img class="img-tabel" src="imgg/medal-silver.png" ></th>
+									<th><img class="img-tabel" src="imgg/medal-bronze.png"></th>
+									<th><img class="img-tabel" src="imgg/medal-all.png"></th>
+								</tr>
+								
+								<tr>
+									<td class="img-tabel">1</td>
+									<td class="img-tabel">چین</td>
+									<td class="img-tabel">85</td>
+									<td class="img-tabel">53</td>
+									<td class="img-tabel">46</td>
+									<td class="img-tabel">184</td>
+									
+								</tr>
+								
+								<tr>
+									<td>2</td>
+									<td>بریتانیا</td>
+									<td>37</td>
+									<td>34</td>
+									<td>40</td>
+									<td>111</td>
+									
+								</tr>
+								
+								<tr>
+									<td>3</td>
+									<td>  آمریکا</td>
+									<td>34</td>
+									<td>34</td>
+									<td>24</td>
+									<td>92</td>
+									
+								</tr>
+								
+								<tr>
+									<td>4</td>
+									<td>روسیه</td>
+									<td>34</td>
+									<td>29</td>
+									<td>44</td>
+									<td>107</td>
+									
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>اوکراین</td>
+									<td>24</td>
+									<td>44</td>
+									<td>26</td>
+									<td>96</td>
+									
+								</tr>
+							</table>
+							<p style="float:right;width:100%;font-size:20pt;text-align:center;color:gray;margin-top:-12px;">......</p>
+							<table class="table" style="margin-bottom:10px;">
+								<tr id="tr-iran">
+									<th>13</th>
+									<th>ایران</th>
+									<th>10</th>
+									<th>9</th>
+									<th>1</th>
+									<th>20</th>
+
+								</tr>
+							</table>
+							<p style="font-size:8pt;text-align:center">
+							<a style="text-decoration:none;" href="#">مشاهده جدول کامل و صفحه پارالمپیک</a>
+							</p>
+						</div>						
+						<div class="Title-all-info"><p class="txt-Title-info">اطلاعات کلی</p></div>
+						<div class="content-ul-info">
+							<ul class="ul-Rmenu-info">
+								<li>بازدید امروز : 50 نفر</li>
+								<li> بازدید دیروز : 72</li>
+								<li> بازدید کلی : 1000 نفر</li>
+							</ul>
+						</div>
+						
+						<div class="Title-all-info"><p class="txt-Title-info">اطلاعات سایت</p></div>
+						<div class="content-ul-info">
+							<ul class="ul-Rmenu-info">
+								<li>تعداد اخبار : 500</li>
+								<li> تعداد پیوند ها : 32</li>
+								<li> تعداد بازی های انجام شده : 50</li>
+							</ul>
+						</div>
+						
+					</div>
+					
+					
+					<div id="Cmenu">
+					
+					
+					<div class="slider"><!--- class="slider"  Start--->
+						<div class="slides"><!--- class="slides"  Start--->
+							
+							<input type="radio" name="btn-rdo" id="r1">
+							<input type="radio" name="btn-rdo" id="r2">
+							<input type="radio" name="btn-rdo" id="r3">
+							<input type="radio" name="btn-rdo" id="r4">
+							<input type="radio" name="btn-rdo" id="r5">
+
+							<!--#######################################-->
+
+							<div class="slide first">
+								<img src="imgg/ronaldinio.jpg" id="pic1">
+								<p style="margin-top:-100px;"></p>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="imgg/shena.jpg"id="pic2" ></a>
+								<p style="margin-top:-80px; color:red;text-align:center;"></p>
+							</div>
+							<div class="slide">
+								<img src="imgg/wallpaper-football.jpg"id="pic3">
+								<p style="margin-top:-100px;"></p>
+							</div>
+							<div class="slide">
+								<img src="imgg/ball.jpg" id="pic4">
+							</div>
+							<div class="slide">
+								<img src="imgg/ASB.png" id="pic5">
+							</div>
+
+							<!--#####################################-->
+							<div class="navigation-auto">
+								<div class="auto-btn1"></div>
+								<div class="auto-btn2"></div>
+								<div class="auto-btn3"></div>
+								<div class="auto-btn4"></div>
+								<div class="auto-btn5"></div>
+							</div>
+
+						</div><!--- class="slides" End..--->
+
+						<div class="navigation-manual" >
+							<label for="r1" class="manual-btn"></label>
+							<label for="r2" class="manual-btn"></label>
+							<label for="r3" class="manual-btn"></label>
+							<label for="r4" class="manual-btn"></label>
+							<label for="r5" class="manual-btn"></label>
+
+						</div>
+						
+						</div>
+		
+						<!--- class="slider" End..--->
+						<!---<div id="Slide">
+							<a href="#"><img src="img/ban2.jpg" width="100%" class="img-slide" id="pic1"></a>
+							<a href="#"><img src="img/ball.jpg" width="100%" class="img-slide" id="pic2"></a>
+							<a href="#"><img src="img/ronaldinio.jpg" width="100%" class="img-slide" id="pic3"></a>
+							<a href="#"><img src="img/images.jpg" width="100%" class="img-slide" id="pic4"></a>
+							<a href="#"><img src="img/wallpaper-football.jpg" width="100%" class="img-slide" id="pic5"></a>
+							<a href="#"><img src="img/shena.jpg" width="100%" class="img-slide" id="pic6"></a>
+							<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+							<div id="setRdo">
+								<input type="radio" id="r1" name="rdo1" class="Rdo-slide">
+								<input type="radio" id="r2" name="rdo1" class="Rdo-slide">
+								<input type="radio" id="r3" name="rdo1" class="Rdo-slide">
+								<input type="radio" id="r4" name="rdo1" class="Rdo-slide">
+								<input type="radio" id="r5" name="rdo1" class="Rdo-slide">
+								<input type="radio" id="r6" name="rdo1" class="Rdo-slide">
+							</div>
+						</div>--->
+						<script type="text/javascript">
+			
+							var counter=1;
+							setInterval(function()
+							{
+
+								document.getElementById("r" + counter).checked=true;
+								counter++;
+								if(counter > 5 )
+								{
+									counter =1;
+								}
+							},3000);
+
+						</script>
+						
+						<div id="content" >
+							<div class="title-content"><p class="txt-title-content"> لیست نقل و انتقالات 1400-1401</p> </div>
+							<div class="content-content">
+							<p class="txt-content">
+								پرسپولیس: رضا اسدی - علیرضا ابراهیمی
+								<br/>
+							استقلال: امین قاسمی نژاد - علیرضا رضایی
+								<br/>
+								سپاهان : مسعود ریگی - فرشاد احمدزاده
+								<br/>
+								تراکتور: علی عبدالله زاده
+							</p>
+							<!--- ادامه مطلب-->
+							<p  style="float:left;text-align:left;padding-left:10px;bottom:3;">
+							<a id="continu" href="#" style="text-decoration:none;">ادامه مطلب...</a>
+							</p>
+							
+							</div>
+							<div class="footer-content">
+								
+							</div>
+						</div>
+						
+						<div id="content" >
+							<div class="title-content"><p class="txt-title-content"> جدول مقدماتی آسیا-مرحله سوم- گروه A</p> </div>
+							<div class="content-content content-tabel">
+							<table class="table">
+								<tr id="tr-head">
+									<th class="thead"></th>
+									<th class="thead">تیم</th>
+									<th class="thead">بازیها</th>
+									<th class="thead">امتیاز</th>
+								</tr>
+								<tr>
+									<th>1</th>
+									<th>ایران</th>
+									<th>1</th>
+									<th>3</th>
+								</tr>
+								<tr>
+									<th>2</th>
+									<th>امارات</th>
+									<th>1</th>
+									<th>1</th>
+								</tr>
+								<tr>
+									<th>3</th>
+									<th>عراق</th>
+									<th>1</th>
+									<th>1</th>
+								</tr>
+								<tr>
+									<th>4</th>
+									<th>لبنان</th>
+									<th>1</th>
+									<th>1</th>
+								</tr>
+								<tr>
+									<th>5</th>
+									<th>کره جنوبی</th>
+									<th>1</th>
+									<th>1</th>
+								</tr>
+								<tr>
+									<th>6</th>
+									<th>سوریه</th>
+									<th>1</th>
+									<th>1</th>
+								</tr>
+							</table>
+							
+							</div>
+							<div class="footer-content">
+								
+							</div>
+						</div>
+						
+												<div id="content" >
+							<div class="title-content"><p class="txt-title-content"> لیست بازیکنان دعوت شده  به  تیم ملی فوتبال</p> </div>
+							<div class="content-content">
+							<p class="txt-content">
+								علیرضا جهانبخش - مهدی طارمی - سردار آزمون-علیرضا بیرانوند
+								<br/>
+								سامان قدوس - سید جلال حسینی - 
+								<br/>
+								صادق اکوان - مهدی حسن پور - مهرشاد خواجه میری
+								<br/>
+								انصاری فر - اشکان دژاگه
+							</p>
+							<!--- ادامه مطلب-->
+							<p  style="float:left;text-align:left;padding-left:10px;bottom:3;">
+							<a id="continu" href="#" style="text-decoration:none;">ادامه مطلب...</a>
+							</p>
+							
+							</div>
+							<div class="footer-content">
+								
+							</div>
+						</div>
+						
+												<div id="content" >
+							<div class="title-content"><p class="txt-title-content"> نتیجه بازی پرسپولیس با استقلال در سال 1372</p> </div>
+							<div class="content-content">
+							<p class="txt-content">
+								تیم پرسپولیس با 6 گل رقیب سنتی خود را تحقیر کرد .
+								<br/>
+								گل های این بازی را .....
+							</p>
+							<!--- ادامه مطلب-->
+							<p  style="float:left;text-align:left;padding-left:10px;bottom:3;">
+							<a id="continu" href="#" style="text-decoration:none;">ادامه مطلب...</a>
+							</p>
+							
+							</div>
+							<div class="footer-content">
+								
+							</div>
+						</div>
+						
+					</div>
+					
+					<div id="Lmenu">
+						
+						<div class="content-Lmenu">
+						<a href="#"><img src="img/logo/Varzesh3.png" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/LogoSP.png" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/Afc.jpg" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/current.png" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/footballi.png" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/Persian_Gulf.png" class="img" width="100%;"height="60px;"></a>
+						<a href="#"><img src="img/logo/LogoFooter.png" class="img" width="100%;"height="60px;"></a>
+						</div>
+						
+					</div>
+				
+				</div>
+				
+					
+		</div>
+		
+		<div id="footer">
+						<div style="float:right;padding:15px;"><!-- اخبار ورزشی-->
+							<img src="img/khF.png" width="200px" height="150px">
+						</div>
+						
+							<div style="float:right;margin-right:15%;padding:15px;"><!-- متن فوتر-->
+							<h1 style="color:white;">درباره اخبار ورزشی</h1>
+								<p style="color:white;text-align:right;">
+								سایت اخبار ورزشی در شهریور ماه سال 1400 با هدف ارائه یک پروژه طراحی سایت 
+								<br/>
+								خبرورزشی ایجاد گردید.
+									<br/>
+									
+								</p>
+								
+						    </div>
+							
+							<div style="float:left;position:absolute;right:82%;top:0;padding:0px;"><!-- گیف  ایران-->
+							    <img src="img/irgif.gif" width="250px" height="auto">
+								
+						    </div>
+							
+							<div style="background-color:black;width:100%;height:30px;float:right;bottom:0"><!-- المان اخر-->
+								<p style="color:white;font-size:10pt;padding:2px;margin-right:15px;text-align:center">
+								&copy کپی برداری از مطالب سایت با ذکر لینک منبع، بلامانع می باشد.</p>
+							</div>
+					</div>
+	
+
+	</body>
+	
+</html>
